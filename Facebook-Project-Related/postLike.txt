@@ -1,0 +1,8 @@
+1. intiate null when uploading post
+
+2. user like => +1 in db
+=> fill 'likeimg' with color when post is liked by user
+=> user unlike => -1 in db
+=> display number of likes
+
+3.

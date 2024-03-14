@@ -1,0 +1,11 @@
+Friends/Notification
+
+
+when clicking, friend request is sent ==> ### is on(other user gets notification if wants to accept or not) || nothing happens in db
+
+when accepting friend request ==> {addFriend} is on || both users get added in db (both rows)
+
+
+notification:
+column notification in profiles => 
+when other gets notification, [1. profile info of the one who sent],

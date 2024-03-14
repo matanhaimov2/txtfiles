@@ -1,0 +1,76 @@
+setPiece:(move pawn)
+
+1. onClick => open 4 MovesToClick
+2. if pos in list => close 2 MovesToClick - (2 remain)
+3. onClick MovesToClick => list will replace old pos with new pos
+
+removePiece: (eaten by)
+1.
+
+
+
+cut string in 2 strings (a | 6)
+go through lists X and Y and take 2 letters one before and one after
+for example: chosen - g, so pick f and h
+same with number 
+for example: chosen - 6, so pick 5 and 7
+
+my way: 
+
+        // var newFirstStr;
+        // var newFirstNumber;
+        // var newSecondStr;
+        // var newSecondNumber;
+
+        // if(!numberAfter) { // in case 2 edges pawn is selected
+        //     if(letterBefore) {
+        //         newSecondStr = letterAfter + numberBefore 
+        //         newSecondNumber = letterBefore + numberBefore 
+        //         console.log(newSecondStr, newSecondNumber) 
+        //     }
+        //     else { // in case 1 edge pawn is selected
+        //         newSecondStr = letterAfter + numberBefore 
+        //         console.log(newSecondStr) 
+        //     }
+        // }
+
+        // else if(!letterAfter) { // in case 2 edges pawn is selected
+        //     newFirstNumber = letterBefore + numberAfter
+        //     newSecondNumber = letterBefore + numberBefore 
+        //     console.log(newFirstNumber, newSecondNumber) 
+
+        // }
+
+        // else if(!letterBefore) { // in case 2 edges pawn is selected
+        //     if(numberAfter) {
+        //         newFirstStr = letterAfter + numberAfter
+        //         newSecondStr = letterAfter + numberBefore
+        //         console.log(newFirstStr, newSecondStr) 
+        //     }
+        //     else { // in case 1 edge pawn is selected
+        //         newFirstStr = letterAfter + numberAfter
+        //         console.log(newFirstStr)
+        //     }
+        // }
+
+        // else if(!numberBefore) { // in case 2 edges pawn is selected
+        //     newFirstStr = letterAfter + numberAfter   
+        //     newFirstNumber = letterBefore + numberAfter
+        //     console.log(newFirstStr, newFirstNumber) 
+
+        // }
+
+        // else if(!numberAfter && !letterBefore) {
+        //     newSecondStr = letterAfter + numberBefore 
+        //     console.log(newSecondStr)
+
+        // }
+
+        // else{ // in case 4 edges pawn is selected
+        //     newFirstStr = letterAfter + numberAfter // c8    
+        //     newFirstNumber = letterBefore + numberAfter // a8
+        //     newSecondStr = letterAfter + numberBefore //c6
+        //     newSecondNumber = letterBefore + numberBefore // a6   
+        //     console.log(newFirstStr, newSecondStr, newFirstNumber, newSecondNumber) 
+        //     // select edge pawn is missing
+        // }
